@@ -1,3 +1,8 @@
+body {
+    background: url("img/background.jpg");
+    background-size: cover;
+}
+
 h1 {
     text-align: center;
     background-color: brown;
@@ -6,12 +11,12 @@ h1 {
     font-weight: bold;
     font-size: 50px;
     border-radius: 10px;
+    margin: 15px;
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0px auto;
     border: solid red 10px;
     padding: 5px;
     border-radius: 10px;
@@ -24,8 +29,8 @@ img {
 
 div.container {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    box-sizing: border-box;
+    margin: 0px auto;
     text-align: center;
     background-color: #FFB266;
     border: solid red 5px;
@@ -42,12 +47,26 @@ div.container div {
     text-align: initial;
 }
 
-#home-list {
-    display: inline;
-    font-size: 25px;
-    font-style: italic;
+.ref img,
+.ref a {
+    box-sizing: border-box;
+    display: inline-block;
+    height: auto;
+}
+
+.ref a {
+    margin: 6%;
+    width: 35%;
+}
+
+.ref img {
+    width: 100%;
 }
 
 .introduction {
-    padding: 50px;
+    margin: 40px;
+}
+
+.ref .right {
+    margin-left: 10%;
 }
