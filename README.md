@@ -1,1 +1,1 @@
-Website containing links to webpages with recipes.
+Website with easy recipes for beginners.
